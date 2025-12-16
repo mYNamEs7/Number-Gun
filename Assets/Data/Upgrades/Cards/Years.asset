@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51676a5a96d48d4eb0c1f60e47a48bb, type: 3}
+  m_Name: Years
+  m_EditorClassIdentifier: 
+  lvls:
+  - needBullets: 8
+    ruName: "\u0413\u041E\u0414\u0410"
+    enName: YEARS
+    trName: YILLAR
+  - needBullets: 50
+    ruName: "\u0413\u041E\u0414\u0410"
+    enName: YEARS
+    trName: YILLAR
+  - needBullets: 250
+    ruName: "\u0413\u041E\u0414\u0410"
+    enName: YEARS
+    trName: YILLAR
+  - needBullets: 500
+    ruName: "\u0413\u041E\u0414\u0410"
+    enName: YEARS
+    trName: YILLAR
+  - needBullets: 0
+    ruName: "\u0413\u041E\u0414\u0410"
+    enName: YEARS
+    trName: YILLAR
+  upgrades:
+  - upgrade: {fileID: 11400000, guid: 7722ff5dd0301604681df175d0728d26, type: 2}
+    ruName: +{0}
+    enName: +{0}
+    trName: +{0}

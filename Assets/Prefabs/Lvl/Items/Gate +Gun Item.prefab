@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3881889965589829927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4041311980378707629}
+  - component: {fileID: 6781785618338695179}
+  m_Layer: 4
+  m_Name: Gate +Gun Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4041311980378707629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3881889965589829927}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.17917824, y: -0.0000371933, z: 19.922659}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 4911673419062646600}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6781785618338695179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3881889965589829927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9698a809d5d3841bf28607e5c0858b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisCollider: {fileID: 9030771750902079742}
+--- !u!1001 &8753628559906730065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4041311980378707629}
+    m_Modifications:
+    - target: {fileID: 3450392975560633031, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_Name
+      value: Gate Sprite - +Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7800372
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+--- !u!4 &4911673419062646600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4418847314660124441, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+  m_PrefabInstance: {fileID: 8753628559906730065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &9030771750902079742 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 299662842990350511, guid: 8088bb92b04c6344bac2a7fd624bffe4, type: 3}
+  m_PrefabInstance: {fileID: 8753628559906730065}
+  m_PrefabAsset: {fileID: 0}

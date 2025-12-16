@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59772625eccff8d44a5bcedbaaa639a5, type: 3}
+  m_Name: Years
+  m_EditorClassIdentifier: 
+  type: 2
+  lvl:
+  - value: 5
+    price: 100
+  - value: 10
+    price: 150
+  - value: 15
+    price: 200
+  - value: 20
+    price: 250
+  - value: 25
+    price: 300
+  - value: 30
+    price: 350
+  - value: 35
+    price: 400
+  - value: 40
+    price: 450
+  - value: 45
+    price: 500
+  - value: 50
+    price: 550
+  - value: 55
+    price: 600
+  - value: 60
+    price: 650
+  - value: 65
+    price: 700
+  - value: 70
+    price: 750
+  - value: 75
+    price: 800
+  - value: 80
+    price: 850
+  - value: 85
+    price: 900
+  - value: 90
+    price: 950
+  - value: 95
+    price: 1000
+  - value: 100
+    price: 1050
+  - value: 105
+    price: 1100
+  - value: 110
+    price: 1150
+  - value: 115
+    price: 1200
+  - value: 120
+    price: 1250
+  - value: 125
+    price: 1300
+  - value: 130
+    price: 1350
+  - value: 135
+    price: 1400
+  - value: 140
+    price: 1450
+  - value: 145
+    price: 1500
+  - value: 150
+    price: 1550
+  - value: 155
+    price: 1600
+  - value: 160
+    price: 1650
+  - value: 165
+    price: 1700
+  - value: 170
+    price: 1750
+  - value: 175
+    price: 1800
+  - value: 180
+    price: 1850
+  - value: 185
+    price: 1900
+  - value: 190
+    price: 1950
+  - value: 195
+    price: 2000
+  - value: 200
+    price: 2050
+  - value: 205
+    price: 2100
+  - value: 210
+    price: 2150
+  - value: 215
+    price: 2200
+  - value: 220
+    price: 2250
+  - value: 225
+    price: 2300
+  - value: 230
+    price: 2350
+  - value: 235
+    price: 2400
+  - value: 240
+    price: 2450
+  - value: 245
+    price: 2500
+  - value: 250
+    price: 2550
+  - value: 255
+    price: 2600
+  - value: 260
+    price: 2650
+  - value: 265
+    price: 2700
+  - value: 270
+    price: 2750
+  - value: 275
+    price: 2800
+  - value: 280
+    price: 2850
+  - value: 285
+    price: 2900
+  - value: 290
+    price: 2950
+  - value: 295
+    price: 3000
+  - value: 300
+    price: 3050
+  - value: 305
+    price: 3100
+  - value: 310
+    price: 3150
+  - value: 315
+    price: 3200
+  - value: 320
+    price: 3250
+  - value: 325
+    price: 3300
+  - value: 330
+    price: 3350
+  - value: 335
+    price: 3400
+  - value: 340
+    price: 3450
+  - value: 345
+    price: 3500
+  - value: 350
+    price: 3550
+  - value: 355
+    price: 3600
+  - value: 360
+    price: 3650
+  - value: 365
+    price: 3700
+  - value: 370
+    price: 3750
+  - value: 375
+    price: 3800
+  - value: 380
+    price: 3850
+  - value: 385
+    price: 3900
+  - value: 390
+    price: 3950
+  - value: 395
+    price: 4000
+  - value: 400
+    price: 4050
+  - value: 405
+    price: 4100
+  - value: 410
+    price: 4150
+  - value: 415
+    price: 4200
+  - value: 420
+    price: 4250
+  - value: 425
+    price: 4300
+  - value: 430
+    price: 4350
+  - value: 435
+    price: 4400
+  - value: 440
+    price: 4450
+  - value: 445
+    price: 4500
+  - value: 450
+    price: 4550
+  - value: 455
+    price: 4600
+  - value: 460
+    price: 4650
+  - value: 465
+    price: 4700
+  - value: 470
+    price: 4750
+  - value: 475
+    price: 4800
+  - value: 480
+    price: 4850
+  - value: 485
+    price: 4900
+  - value: 490
+    price: 4950
+  - value: 495
+    price: 5000
+  - value: 500
+    price: 5050
+  valueFormula: (n + 1) * 5
+  priceFormula: 100 + n * 50

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090d1ab5d2cad7e499d4cbfc952cbd8b, type: 3}
+  m_Name: _Lvls List
+  m_EditorClassIdentifier: 
+  randomizedLvls: 0
+  lvls:
+  - data: {fileID: 937568099266113144, guid: 5f0e67f4a2f4c2a4898f044495593c65, type: 3}
+  - data: {fileID: 937568099266113144, guid: 928fd9d5928df804caf7dc98b89b8c9a, type: 3}
+  - data: {fileID: 937568099266113144, guid: c2e20e4a18d93c04aaf7fb7aebf3976f, type: 3}
+  - data: {fileID: 937568099266113144, guid: 95851f25173e2e94e8a7744001a429d4, type: 3}
+  - data: {fileID: 937568099266113144, guid: 825526ae189ceb24b9bf3554e1b73d14, type: 3}
+  - data: {fileID: 937568099266113144, guid: b8d01926b97d4fb439165bcfbcdb6eb6, type: 3}
+  - data: {fileID: 937568099266113144, guid: b8d01926b97d4fb439165bcfbcdb6eb6, type: 3}

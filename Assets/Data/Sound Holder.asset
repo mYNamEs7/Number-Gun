@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a996c492705604889e78d95815b589, type: 3}
+  m_Name: Sound Holder
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1590655690242020912, guid: fe544180d9237c8459b2075bc3ec88d4, type: 3}
+  mainMixer: {fileID: 24100000, guid: 7c82b11f4582faa428ca1c6f2a287caf, type: 2}
+  soundPacks:
+  - key: Background Music
+    sounds:
+    - clip: {fileID: 0}
+      volume: 0
+    addPitch: 0
+  - key: Money
+    sounds:
+    - clip: {fileID: 8300000, guid: cfb239ec9e2d16e479acc403e7787249, type: 3}
+      volume: 0.5
+    addPitch: 0
+  - key: Buy
+    sounds:
+    - clip: {fileID: 8300000, guid: c1bed539db9acaa49938c43e74a782ac, type: 3}
+      volume: 0.5
+    addPitch: 0.02
+  - key: Hit
+    sounds:
+    - clip: {fileID: 8300000, guid: b4c221a8c3d4f3948bc18b1dc9f9bc0e, type: 3}
+      volume: 0.1
+    addPitch: 0.01
+  - key: Whoosh
+    sounds:
+    - clip: {fileID: 8300000, guid: bb2b0ecda3ec320459d81b4d4723bc63, type: 3}
+      volume: 0.2
+    - clip: {fileID: 8300000, guid: 7ac5239e946e9894398216823723f772, type: 3}
+      volume: 0.2
+    - clip: {fileID: 8300000, guid: c4d2b0da3311b364a89f0dd648151aa7, type: 3}
+      volume: 0.2
+    - clip: {fileID: 8300000, guid: 9a202708230b79e4da3e09ea35f05c58, type: 3}
+      volume: 0.2
+    - clip: {fileID: 8300000, guid: db48776de2ef1c74ca358f791f8ba89e, type: 3}
+      volume: 0.2
+    addPitch: 0
+  - key: Reward
+    sounds:
+    - clip: {fileID: 0}
+      volume: 0
+    addPitch: 0
+  - key: Glass Crack
+    sounds:
+    - clip: {fileID: 0}
+      volume: 0
+    addPitch: 0
+  - key: Glass Broke
+    sounds:
+    - clip: {fileID: 0}
+      volume: 0
+    addPitch: 0
+  - key: Open Chest
+    sounds:
+    - clip: {fileID: 0}
+      volume: 0
+    addPitch: 0

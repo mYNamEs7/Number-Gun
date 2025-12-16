@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51676a5a96d48d4eb0c1f60e47a48bb, type: 3}
+  m_Name: Gun Amount Multiply
+  m_EditorClassIdentifier: 
+  lvls:
+  - needBullets: 50
+    ruName: "\u0427\u0418\u0421\u041B\u041E \u041E\u0420\u0423\u0416\u0418\u0419"
+    enName: GUN AMOUNT
+    trName: "S\u0130LAH SAYISI"
+  - needBullets: 250
+    ruName: "\u0427\u0418\u0421\u041B\u041E \u041E\u0420\u0423\u0416\u0418\u0419"
+    enName: GUN AMOUNT
+    trName: "S\u0130LAH SAYISI"
+  - needBullets: 1000
+    ruName: "\u0427\u0418\u0421\u041B\u041E \u041E\u0420\u0423\u0416\u0418\u0419"
+    enName: GUN AMOUNT
+    trName: "S\u0130LAH SAYISI"
+  - needBullets: 0
+    ruName: "\u0427\u0418\u0421\u041B\u041E \u041E\u0420\u0423\u0416\u0418\u0419"
+    enName: GUN AMOUNT
+    trName: "S\u0130LAH SAYISI"
+  upgrades:
+  - upgrade: {fileID: 11400000, guid: 0a614f3660662744383bb15538dccd24, type: 2}
+    ruName: X{0}
+    enName: X{0}
+    trName: X{0}

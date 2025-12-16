@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2214225245756331620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872781117667758374}
+  - component: {fileID: 4030236901039899809}
+  m_Layer: 4
+  m_Name: Gate - Fire Rate Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872781117667758374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2214225245756331620}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6588616463362702057}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4030236901039899809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2214225245756331620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9698a809d5d3841bf28607e5c0858b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisCollider: {fileID: 2815697163341834911}
+--- !u!1001 &7824723137929268740
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2872781117667758374}
+    m_Modifications:
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3642857
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327767442871531041, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+      propertyPath: m_Name
+      value: Gate - Fire Rate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+--- !u!65 &2815697163341834911 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 5441577167892604059, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+  m_PrefabInstance: {fileID: 7824723137929268740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6588616463362702057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4033105405189813485, guid: cd5c1bd52cc70fb4e8eec4c5f6f2b350, type: 3}
+  m_PrefabInstance: {fileID: 7824723137929268740}
+  m_PrefabAsset: {fileID: 0}

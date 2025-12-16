@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4637d09553d94404cbe1434b9076a92c, type: 3}
+  m_Name: Weapon Data Lvl 1
+  m_EditorClassIdentifier: 
+  lvl: 0
+  bullet: {fileID: 6227207653397463346, guid: d470d01eab37b8c46a0e6b5b1f6364d0, type: 3}
+  damage: 1

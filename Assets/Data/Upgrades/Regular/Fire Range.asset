@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59772625eccff8d44a5bcedbaaa639a5, type: 3}
+  m_Name: Fire Range
+  m_EditorClassIdentifier: 
+  type: 1
+  lvl:
+  - value: 1.02
+    price: 100
+  - value: 1.04
+    price: 150
+  - value: 1.06
+    price: 200
+  - value: 1.08
+    price: 250
+  - value: 1.1
+    price: 300
+  - value: 1.12
+    price: 350
+  - value: 1.14
+    price: 400
+  - value: 1.16
+    price: 450
+  - value: 1.18
+    price: 500
+  - value: 1.2
+    price: 550
+  - value: 1.22
+    price: 600
+  - value: 1.24
+    price: 650
+  - value: 1.26
+    price: 700
+  - value: 1.28
+    price: 750
+  - value: 1.3
+    price: 800
+  - value: 1.32
+    price: 850
+  - value: 1.34
+    price: 900
+  - value: 1.36
+    price: 950
+  - value: 1.38
+    price: 1000
+  - value: 1.4
+    price: 1050
+  - value: 1.42
+    price: 1100
+  - value: 1.44
+    price: 1150
+  - value: 1.46
+    price: 1200
+  - value: 1.48
+    price: 1250
+  - value: 1.5
+    price: 1300
+  - value: 1.52
+    price: 1350
+  - value: 1.54
+    price: 1400
+  - value: 1.56
+    price: 1450
+  - value: 1.58
+    price: 1500
+  - value: 1.6
+    price: 1550
+  - value: 1.62
+    price: 1600
+  - value: 1.64
+    price: 1650
+  - value: 1.66
+    price: 1700
+  - value: 1.68
+    price: 1750
+  - value: 1.7
+    price: 1800
+  - value: 1.72
+    price: 1850
+  - value: 1.74
+    price: 1900
+  - value: 1.76
+    price: 1950
+  - value: 1.78
+    price: 2000
+  - value: 1.8
+    price: 2050
+  - value: 1.82
+    price: 2100
+  - value: 1.84
+    price: 2150
+  - value: 1.86
+    price: 2200
+  - value: 1.88
+    price: 2250
+  - value: 1.9
+    price: 2300
+  - value: 1.92
+    price: 2350
+  - value: 1.94
+    price: 2400
+  - value: 1.96
+    price: 2450
+  - value: 1.98
+    price: 2500
+  - value: 2
+    price: 2550
+  - value: 2.02
+    price: 2600
+  - value: 2.04
+    price: 2650
+  - value: 2.06
+    price: 2700
+  - value: 2.08
+    price: 2750
+  - value: 2.1
+    price: 2800
+  - value: 2.12
+    price: 2850
+  - value: 2.14
+    price: 2900
+  - value: 2.16
+    price: 2950
+  - value: 2.18
+    price: 3000
+  - value: 2.2
+    price: 3050
+  - value: 2.22
+    price: 3100
+  - value: 2.24
+    price: 3150
+  - value: 2.26
+    price: 3200
+  - value: 2.28
+    price: 3250
+  - value: 2.3
+    price: 3300
+  - value: 2.32
+    price: 3350
+  - value: 2.34
+    price: 3400
+  - value: 2.36
+    price: 3450
+  - value: 2.38
+    price: 3500
+  - value: 2.4
+    price: 3550
+  - value: 2.42
+    price: 3600
+  - value: 2.44
+    price: 3650
+  - value: 2.46
+    price: 3700
+  - value: 2.48
+    price: 3750
+  - value: 2.5
+    price: 3800
+  - value: 2.52
+    price: 3850
+  - value: 2.54
+    price: 3900
+  - value: 2.56
+    price: 3950
+  - value: 2.58
+    price: 4000
+  - value: 2.6
+    price: 4050
+  - value: 2.62
+    price: 4100
+  - value: 2.64
+    price: 4150
+  - value: 2.66
+    price: 4200
+  - value: 2.68
+    price: 4250
+  - value: 2.7
+    price: 4300
+  - value: 2.72
+    price: 4350
+  - value: 2.74
+    price: 4400
+  - value: 2.76
+    price: 4450
+  - value: 2.78
+    price: 4500
+  - value: 2.8
+    price: 4550
+  - value: 2.82
+    price: 4600
+  - value: 2.84
+    price: 4650
+  - value: 2.86
+    price: 4700
+  - value: 2.88
+    price: 4750
+  - value: 2.9
+    price: 4800
+  - value: 2.92
+    price: 4850
+  - value: 2.94
+    price: 4900
+  - value: 2.96
+    price: 4950
+  - value: 2.98
+    price: 5000
+  - value: 3
+    price: 5050
+  zeroUpgradesValue: 1
+  valueFormula: 1 + (n + 1) * 0.01
+  priceFormula: 100 + n * 50

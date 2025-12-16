@@ -1,0 +1,114 @@
+{
+    "idSave": 441,
+    "isFirstSession": false,
+    "language": "ru",
+    "promptDone": false,
+    "Cash": 11970,
+    "Keys": 0,
+    "CurrentLevel": 7,
+    "CompleteLevelCount": 20,
+    "LastLevelIndex": 4,
+    "CurrentAttempt": 0,
+    "Record": 32.012237548828128,
+    "Music": false,
+    "SFX": false,
+    "UpgradesLvl": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "CurChestCardPack": 0,
+    "curHandId": 5,
+    "availableHandIds": [
+        0,
+        5
+    ],
+    "fillHandId": 6,
+    "fillHandPercent": 0,
+    "goldenGunFireRate": 0.0,
+    "goldenGunFireRange": 0.0,
+    "handIncome": 4.0,
+    "handFireRate": 4.0,
+    "handFireRange": 2.0,
+    "goldenWeapons": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "gridSize": {
+        "x": 4,
+        "y": 3
+    },
+    "secondGridSize": {
+        "x": 4,
+        "y": 3
+    },
+    "increaseStartIndex": 0,
+    "multiplierStartIndex": 0,
+    "yearGateCapacity": 0,
+    "blocks": [
+        -1,
+        -1,
+        -1
+    ],
+    "gridCells": [],
+    "blockIndexes": [],
+    "openedBlocks": [
+        0,
+        1
+    ],
+    "baseMultiplier": 1.0,
+    "moneyTimers": [
+        "",
+        "",
+        ""
+    ],
+    "gunItems": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "addedYears": 0,
+    "money": 1,
+    "newPlayerName": "Hello!",
+    "openLevels": [
+        false,
+        true,
+        false
+    ]
+}
